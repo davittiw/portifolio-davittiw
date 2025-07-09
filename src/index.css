@@ -1,0 +1,19 @@
+@font-face{
+  font-family: MontSerrat;
+  src: url('/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+@import "tailwindcss";
+
+:root {
+  --primary: #041642;
+  --secundary: #003e91;
+  --primary-two: #002063;
+  --black-gray: #121216;
+  --white: #fff;
+}
+
+@theme {
+  --font-montserrat: MontSerrat, sans-serif;
+  --shadow-3xl: 0 15px 20px rgba(0, 0, 0, 0.25); 
+}
