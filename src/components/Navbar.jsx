@@ -11,13 +11,13 @@ function Navbar() {
 
     return (
         // Barra de navegação principal, com layout flex e cor de fundo
-        <nav className="items-center flex justify-between z-10 p-4 fixed w-full text-white">
+        <nav className="flex items-center justify-center z-10 p-4 fixed top-0 left-1/2 -translate-x-1/2 w-150 text-left text-white">
             {/* Div centralizada com os links de navegação */}
-            <div className='absolute left-1/2 -translate-x-1/2 items-center flex gap-4'>
-                <a href="#">Início</a>
-                <a href="#">Tecnologias</a>
-                <a href="#">Projetos</a>
-                <a href="#">Contato</a> 
+            <div className='items-center flex gap-4'>
+                <a href="#home">Início</a>
+                <a href="#tech">Tecnologias</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a> 
             </div>
 
             {/* Div alinhada à direita com idioma e ícone de tema */}
