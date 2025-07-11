@@ -12,20 +12,18 @@ function Tech () {
         {name: 'PHP', icon: FaPhp, color: '#777bb4'},
         {name: 'TypeScript', icon: SiTypescript, color: '#3178c6'},
         {name: 'Tailwind', icon: RiTailwindCssFill, color: '#38bdf8'},
-        {name: 'MySQL', icon: DiMysql, color: '#00758f'},
-        {name: 'Git', icon: FaGitAlt, color: '#f34f29'}
+        {name: 'MySQL', icon: DiMysql, color: '#00758f'}
     ];
 
     return(
-        <div className="h-125" id="tech">
-            <div className="w-150 flex justify-center">
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-4 gap-2 justify-center">
+            <div id="tech" className="mt-5 flex justify-center items-center"> 
+                <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-2 justify-center">
                     {techs.map((tech) => {
                         const Icon = tech.icon;
                         return (
                             <div
                                 key={tech.name}
-                                className="group border border-white/20 text-gray-300 rounded-lg items-center justify-center flex w-32 h-10 gap-2 transition-colors duration-200 cursor-pointer animate-pulse hover:bg-gray-800 hover:border-gray-600 hover:text-white"
+                                className="border border-white/20 text-gray-300 rounded-lg items-center justify-center flex h-10 p-2 gap-2 transition-colors duration-200 cursor-pointer animate-pulse hover:bg-gray-800 hover:border-gray-600 hover:text-white"
                                 style={{
                                     borderColor: undefined,
                                 }}
@@ -45,7 +43,6 @@ function Tech () {
                     })}
                 </div>
             </div>
-        </div>
     );
 }
 

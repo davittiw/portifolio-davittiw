@@ -1,21 +1,23 @@
-import CardProfile from './components/CardProfile'
+import Contato from './components/contato/contato'
+import CardProfile from './components/home/CardProfile'
 import Navbar from './components/Navbar'
-import Tech from './components/Tech'
-import Projetos from './components/Projetos'
+import Projetos from './components/projetos/Projetos'
 
 function App() {
   return (
     <>
-      <Navbar/>
-        <div className="bg-[var(--black-gray)] min-w-full min-h-full flex flex-col items-center justify-center">
+      <div className="w-full flex items-center justify-center bg-[var(--black-gray)] min-h-screen overflow-x-hidden">
+        <Navbar/>
+        <main id='main' className="bg-[var(--black-gray)] w-full sm:w-1/2 md:w-1/3 lg:w-1/4 min-h-screen flex flex-col items-center justify-center">
+                <CardProfile/>
+                <Projetos/>
+                <Contato/>
+        </main>
+      </div>
 
-            <div className='min-h-screen bg-[var(--black-gray)] flex flex-col items-center justify-center'>
-              <CardProfile/>
-              <Tech/>
-              <Projetos/>
-            </div>
-
-        </div>
+      <footer className="bg-[var(--black-gray)] w-full text-center py-4 text-gray-500">
+        <p>Desenvolvido por <a href="https://linkedin.com/in/davttiw/" target="_blank" className="text-[var(--white)]">@davittiw</a> &copy; 2025</p>
+      </footer>
     </>
   )
 }
