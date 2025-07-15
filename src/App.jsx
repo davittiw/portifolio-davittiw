@@ -1,7 +1,7 @@
-import Contato from './components/contato/contato'
 import CardProfile from './components/home/CardProfile'
 import Navbar from './components/Navbar'
 import Projetos from './components/projetos/Projetos'
+import Contact from './components/contato/Contact'
 import '../i18nify'
 import { useTranslation } from 'react-i18next' // Importando o hook de tradução
 
@@ -15,7 +15,7 @@ function App() {
         <main id='main' className="bg-[var(--black-gray)] w-full sm:w-1/2 md:w-1/3 lg:w-1/4 min-h-screen flex flex-col items-center justify-center">
                 <CardProfile/>
                 <Projetos/>
-                <Contato/>
+                <Contact/>
         </main>
       </div>
 

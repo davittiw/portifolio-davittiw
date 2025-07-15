@@ -39,4 +39,4 @@ function Contato () {
     )
 }
 
-export default Contato;
+export default Contact;
