@@ -2,6 +2,7 @@ import CardProfile from './components/home/CardProfile'
 import Navbar from './components/Navbar'
 import Projetos from './components/projetos/Projetos'
 import Contact from './components/contato/Contact.jsx'
+
 import '../i18nify'
 import { useTranslation } from 'react-i18next' // Importando o hook de tradução
 
