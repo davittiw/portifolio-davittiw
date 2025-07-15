@@ -1,0 +1,60 @@
+{
+  "Navegacao": {
+    "inicio": {
+      "titulo": "Início"
+    },
+    "projetos": {
+      "titulo": "Projetos"
+    },
+    "contato": {
+      "titulo": "Contato"
+    }
+  },
+  "Informacoes": {
+    "desenvolvedor": "Desenvolvedor Full-Stack",
+    "contratar": "me contrate"
+  },
+  "Sobre": {
+    "titulo": "Sobre Mim",
+    "descricao": "Olá! Eu sou o Luccas, um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento front-end e back-end, gosto de construir aplicações que proporcionam ótimas experiências ao usuário e atendem às necessidades do negócio."
+  },
+  "Projeto1": {
+    "titulo": "Verificador de Clima",
+    "descricao": "Aplicação que consulta a API OpenWeather e exibe a previsão do tempo para qualquer cidade do mundo."
+  },
+  "Projeto2": {
+    "titulo": "Gerenciador de Senhas",
+    "descricao": "Gere senhas seguras e personalizadas com diferentes critérios de complexidade."
+  },
+  "Projeto3": {
+    "titulo": "Conversor de Bases",
+    "descricao": "Converta números entre diferentes sistemas numéricos de forma simples e rápida."
+  },
+  "Projeto4": {
+    "titulo": "Portfólio",
+    "descricao": "Este portfólio foi desenvolvido usando React e Tailwind CSS, destacando minhas habilidades e projetos."
+  },
+  "Contato": {
+    "titulo": "Fale comigo",
+    "nome": "Nome",
+    "email": "Email",
+    "tipo": "Tipo de contato",
+    "opcoesTipo": {
+      "trabalho": "Oportunidade de Trabalho",
+      "parceria": "Parceria",
+      "duvida": "Dúvida",
+      "sugestao": "Sugestão",
+      "outro": "Outro"
+    },
+    "mensagem": "Mensagem",
+    "enviar": "Enviar"
+  },
+  "Sociais": {
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "instagram": "Instagram"
+  },
+  "Rodape": {
+    "texto": "Desenvolvido por @davittiw"
+  }
+}

@@ -2,6 +2,7 @@ import Contato from './components/contato/contato'
 import CardProfile from './components/home/CardProfile'
 import Navbar from './components/Navbar'
 import Projetos from './components/projetos/Projetos'
+import '../i18nify'
 
 function App() {
   return (

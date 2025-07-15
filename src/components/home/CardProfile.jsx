@@ -8,9 +8,9 @@ function CardProfile () {
     const [value, setValue] = useState(4);
 
     return (
-            <div id="home" className="min-h-screen w-100 sm:w-100 md:w-120 lg:w-120 flex flex-col items-center justify-center">
+            <div id="home" className="min-h-screen w-80 sm:w-90 md:w-120 lg:w-120 flex flex-col items-center justify-center">
 
-                <div className='w-100 sm:w-100 md:w-120 lg:w-120 p-3 sm:p-4 md:p-4 lg:p-4 flex flex-row text-white bg-[var(--black-gray)] rounded-xl items-center justify-center border border-gray-700 shadow-3xl'>
+                <div className='w-80 sm:w-90 md:w-120 lg:w-120 p-3 sm:p-4 md:p-4 lg:p-4 flex flex-row text-white bg-[var(--black-gray)] rounded-xl items-center justify-center border border-gray-700 shadow-3xl'>
                     <img
                         src="https://github.com/davittiw.png"
                         alt="davittiw"

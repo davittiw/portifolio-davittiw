@@ -33,7 +33,7 @@ function Projetos () {
     ];
 
     return (
-        <div id="projetos" className="w-100 sm:w-100 md:w-120 lg:w-120 min-h-screen mt-10 bg-[var(--black-gray)] items-center justify-center flex">
+        <div id="projetos" className="w-80 sm:w-90 md:w-110 lg:w-120 min-h-screen mt-10 bg-[var(--black-gray)] items-center justify-center flex">
 
             <div className="w-100 sm:w-100 md:w-120 lg:w-120 flex flex-col gap-5 justify-center items-center">
                 {Projeto.map((proj) => (

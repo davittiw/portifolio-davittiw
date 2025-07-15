@@ -1,0 +1,54 @@
+{
+    "Nav": {
+        "home": "Home",
+        "projects": "Projects",
+        "contato": "Contact"
+    },
+    "Info": {
+        "dev": "Full-Stack Developer",
+        "hire": "hire me"
+    },
+    "about": {
+        "title": "About Me",
+        "description": "Hello! I'm Luccas, a Full-Stack developer passionate about creating innovative and efficient solutions. With experience in both front-end and back-end development, I enjoy building applications that provide great user experiences and meet business needs."
+    },
+    "Project1": {
+        "title": "Weather checker",
+        "description": "Application that queries the OpenWeather API and displays the weather forecast for any city in the world."
+    },
+    "Project2": {
+        "title": "Password Manager",
+        "description": "Generate secure and customized passwords with different complexity criteria."
+    },
+    "Project3": {
+        "title": "Base Converter",
+        "description": "Convert numbers between different numeral systems quickly and easily."
+    },
+    "Project4": {
+        "title": "Portfolio",
+        "description": "This portfolio was developed using React and Tailwind CSS, showcasing my skills and projects."
+    },
+    "Contact": {
+        "title": "Contact me",
+        "name": "Name",
+        "email": "Email",
+        "type": "Type of contact",
+        "typeOptions": {
+            "job": "Job Opportunity",
+            "partner": "Partnership",
+            "question": "Question",
+            "feedback": "Feedback",
+            "other": "Other"
+        },
+        "message": "Message",
+        "send": "Send"
+    },
+    "Social": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "instagram": "Instagram"
+    },
+    "Footer": {
+        "text": "Developed by @davittiw"
+    }
+}

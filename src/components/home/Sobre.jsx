@@ -1,7 +1,7 @@
 function Sobre() {
     return(
-    <div className="w-full sm:w-100 md:w-120 lg:w-120 h-40 mt-5 rounded-xl border border-gray-700 shadow-3xl p-2">
-        <div className="flex flex-col items-left justify-center p-4">
+    <div className="w-80 sm:w-90 md:w-120 lg:w-120 h-40 mt-5 rounded-xl border border-gray-700 shadow-3xl">
+        <div className="flex flex-col items-left justify-center p-3 md:p-5 lg:p-5">
             <h2 className="text-white text-lg font-bold">Sobre Mim</h2>
             <p className="text-gray-300 text-sm mt-2">
                 Olá! Sou Luccas, um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. 
