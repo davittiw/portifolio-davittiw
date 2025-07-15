@@ -1,7 +1,7 @@
 import SocialLinks from "./Redes";
 import { useTranslation } from "react-i18next";
 
-function Contato () {
+function Contact () {
     const { t } = useTranslation();
 
     return (
