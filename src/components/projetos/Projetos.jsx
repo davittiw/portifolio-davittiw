@@ -24,7 +24,6 @@ function Projetos () {
             descricao: t('Project3.description'),
             linkpj: '#',
             linkgh: 'https://github.com/davittiw/pj_conversor-bases',
-            img: '../assets/images/conversor-de-base.png'
         },
         {
             nome:  t('Project4.title'),
