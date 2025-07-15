@@ -4,6 +4,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { DiMysql } from "react-icons/di";
 
 function Tech () {
+
+
     const techs = [
         {name: 'React', icon: FaReact, color: '#61dafb'},
         {name: 'Node.js', icon: FaNodeJs, color: '#3c873a'},

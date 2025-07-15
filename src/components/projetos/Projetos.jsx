@@ -1,31 +1,34 @@
 import { FaGithub, FaGlobe } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
 function Projetos () {
+    const { t } = useTranslation();
+
     const Projeto = [
         {
-            nome: 'Verificador Clima',
-            descricao: 'Aplicação que consulta a API OpenWeather e exibe a previsão do tempo para qualquer cidade do mundo.',
+            nome: t('Project1.title'),
+            descricao: t('Project1.description'),
             linkpj: 'https://verifica-clima.vercel.app/',
             linkgh: 'https://github.com/davittiw/pj_verificador-clima',
             img: '/src/assets/images/verifica-clima.png'
         },
         {
-            nome: 'Gerador de Senha',
-            descricao: 'Gere senhas seguras e personalizadas com diferentes critérios de complexidade.',
+            nome:  t('Project2.title'),
+            descricao: t('Project2.description'),
             linkpj: '#',
             linkgh: 'https://github.com/davittiw/pj_gerador-senhas',
             img: '/src/assets/images/gerador-de-senha.png'
         },
         {
-            nome: 'Calculadora de Bases',
-            descricao: 'Converta números entre diferentes bases numéricas de forma simples e rápida.',
+            nome:  t('Project3.title'),
+            descricao: t('Project3.description'),
             linkpj: '#',
             linkgh: 'https://github.com/davittiw/pj_conversor-bases',
             img: '/src/assets/images/conversor-de-base.png'
         },
         {
-            nome: 'Meu Protifólio',
-            descricao: 'Meu portifólio pessoal, desenvolvido com React e Tailwind CSS.',
+            nome:  t('Project4.title'),
+            descricao: t('Project4.description'),
             linkpj: 'https://davittiw.vercel.app/',
             linkgh: 'https://github.com/davittiw/portifolio-davittiw',
             img: '/src/assets/images/portifolio.png'

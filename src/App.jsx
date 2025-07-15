@@ -3,8 +3,11 @@ import CardProfile from './components/home/CardProfile'
 import Navbar from './components/Navbar'
 import Projetos from './components/projetos/Projetos'
 import '../i18nify'
+import { useTranslation } from 'react-i18next' // Importando o hook de tradução
 
 function App() {
+  const { t } = useTranslation(); // Hook para tradução
+
   return (
     <>
       <div className="w-full flex items-center justify-center bg-[var(--black-gray)] min-h-screen overflow-x-hidden">
@@ -17,7 +20,7 @@ function App() {
       </div>
 
       <footer className="bg-[var(--black-gray)] w-full text-center py-4 text-gray-500">
-        <p>Desenvolvido por <a href="https://linkedin.com/in/davttiw/" target="_blank" className="text-[var(--white)]">@davittiw</a> &copy; 2025</p>
+        <p>{t("Footer.text")}<a href="https://linkedin.com/in/davttiw/" target="_blank" className="text-[var(--white)]">@davittiw</a> &copy; 2025</p>
       </footer>
     </>
   )

@@ -8,7 +8,7 @@
         "dev": "Full-Stack Developer",
         "hire": "hire me"
     },
-    "about": {
+    "About": {
         "title": "About Me",
         "description": "Hello! I'm Luccas, a Full-Stack developer passionate about creating innovative and efficient solutions. With experience in both front-end and back-end development, I enjoy building applications that provide great user experiences and meet business needs."
     },
@@ -25,13 +25,12 @@
         "description": "Convert numbers between different numeral systems quickly and easily."
     },
     "Project4": {
-        "title": "Portfolio",
+        "title": "My Portfolio",
         "description": "This portfolio was developed using React and Tailwind CSS, showcasing my skills and projects."
     },
     "Contact": {
         "title": "Contact me",
         "name": "Name",
-        "email": "Email",
         "type": "Type of contact",
         "typeOptions": {
             "job": "Job Opportunity",
@@ -41,14 +40,14 @@
             "other": "Other"
         },
         "message": "Message",
+        "messagePlaceholder": "Write your message here...",
         "send": "Send"
     },
     "Social": {
-        "github": "GitHub",
-        "linkedin": "LinkedIn",
-        "instagram": "Instagram"
+        "local": "Connect with Me!",
+        "description": "Find me on social media and let's have a chat :)"
     },
     "Footer": {
-        "text": "Developed by @davittiw"
+        "text": "Developed by "
     }
 }

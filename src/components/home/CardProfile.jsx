@@ -3,8 +3,11 @@ import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
 import Tech from './Tech';
 import Sobre from './Sobre';
+import { useTranslation } from 'react-i18next';
 
 function CardProfile () {
+    const { t } = useTranslation();
+
     const [value, setValue] = useState(4);
 
     return (
@@ -23,12 +26,12 @@ function CardProfile () {
                             <div className="flex flex-row gap-2 items-center">
                                 <div className="bg-green-500 w-2 h-2 rounded-md animate-pulse"></div>
                                 <a href="https://www.linkedin.com/in/davttiw/" target="_blank">
-                                    <h3 className='text-gray-500 hover:text-white transition-colors duration-200'>Me contrate!</h3>
+                                    <h3 className='text-gray-500 hover:text-white transition-colors duration-200'>{t('Info.hire')}</h3>
                                 </a>
                             </div>
                         </div>
 
-                            <h3 className='text-gray-500 text-sm'>Desenvolvedor Full-Stack</h3>
+                            <h3 className='text-gray-500 text-sm'>{t('Info.dev')}</h3>
 
                         <Box sx={{ '& > legend': { mt: 2 } }} className="flex items-center gap-2">
                             <Rating
