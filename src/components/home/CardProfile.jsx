@@ -17,11 +17,11 @@ function CardProfile () {
                     <img
                         src="https://github.com/davittiw.png"
                         alt="davittiw"
-                        className='rounded-3xl w-24 h-24 border border-gray-500 shadow-2xl'
+                        className='rounded-xl w-24 h-24 border border-gray-500 shadow-2xl'
                     />
                     <div className='flex flex-col p-4 justify-center text-left w-full gap-1.5'>
                         <div className='flex flex-row justify-between items-center'>
-                            <h1 className='font-bold'>Luccas</h1>
+                            <h1 className='font-bold'>davittiw</h1>
 
                             <div className="flex flex-row gap-2 items-center">
                                 <div className="bg-green-500 w-2 h-2 rounded-md animate-pulse"></div>
