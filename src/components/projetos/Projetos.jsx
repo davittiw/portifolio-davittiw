@@ -33,6 +33,13 @@ function Projetos () {
             linkgh: 'https://github.com/davittiw/portifolio-davittiw',
             img: '/images/portifolio.jpg'
         },
+        {
+            nome: t('Project5.title'),
+            descricao: t('Project5.description'),
+            linkpj: 'https://bookboxd-liart.vercel.app/',
+            linkgh: 'https://github.com/davittiw/bookboxd',
+            img: '/images/bookboxd.png'
+        }
     ];
 
     return (
