@@ -2,7 +2,8 @@
   "Nav": {
     "home": "Início",
     "projects":"Projetos",
-    "contato": "Contato"
+    "contato": "Contato",
+    "articles": "Artigos"
   },
   "Info": {
     "dev": "Desenvolvedor Full-Stack",
@@ -27,6 +28,10 @@
   "Project4": {
     "title": "Portfólio",
     "description": "Este portfólio foi desenvolvido usando React e Tailwind CSS, destacando minhas habilidades e projetos."
+  },
+  "Project5": {
+      "title": "Bookboxd",
+      "description": "Pesquise obras com facilidade e veja os detalhes técnicos. Descubra e se conecte com o mundo dos livros!"
   },
   "Contact": {
     "title": "Fale comigo",
