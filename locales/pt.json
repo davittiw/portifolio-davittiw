@@ -2,8 +2,7 @@
   "Nav": {
     "home": "Início",
     "projects":"Projetos",
-    "contato": "Contato",
-    "articles": "Artigos"
+    "contato": "Contato"
   },
   "Info": {
     "dev": "Desenvolvedor Full-Stack",
@@ -49,7 +48,7 @@
     "send": "Enviar"
   },
   "Social": {
-    "local": "Concte-se Comigo!",
+    "local": "Conecte-se Comigo!",
     "description": "Encontre-me nas redes sociais e vamos trocar uma ideia :)"
   },
   "Footer": {

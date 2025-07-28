@@ -2,8 +2,7 @@
     "Nav": {
         "home": "Home",
         "projects": "Projects",
-        "contato": "Contact",
-        "articles": "Articles"
+        "contato": "Contact"
     },
     "Info": {
         "dev": "Full-Stack Developer",
