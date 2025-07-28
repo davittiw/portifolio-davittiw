@@ -1,7 +1,7 @@
 {
   "Nav": {
     "home": "Início",
-    "projects":"Projetos",
+    "projects": "Projetos",
     "contato": "Contato"
   },
   "Info": {
@@ -29,8 +29,8 @@
     "description": "Este portfólio foi desenvolvido usando React e Tailwind CSS, destacando minhas habilidades e projetos."
   },
   "Project5": {
-      "title": "Bookboxd",
-      "description": "Pesquise obras com facilidade e veja os detalhes técnicos. Descubra e se conecte com o mundo dos livros!"
+    "title": "Bookboxd",
+    "description": "Pesquise obras com facilidade e veja os detalhes técnicos."
   },
   "Contact": {
     "title": "Fale comigo",

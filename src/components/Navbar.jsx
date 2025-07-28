@@ -8,7 +8,7 @@ function Navbar() {
       // Barra de navegação
       <div className="flex justify-center">
         <header className="fixed flex items-center justify-center w-full backdrop-blur-sm sm:w-90 md:w-100 lg:w-120 h-16 z-10">
-          <nav className="flex h-full w-full p-10 sm:w-86 md:w-96 lg:w-116 justify-between items-center text-white">
+          <nav className="flex h-full w-full p-10 md:p-2 justify-between items-center font-semibold">
             {/* Div centralizada com os links de navegação */}
             <div>
               <ul className="flex flex-row space-x-4">
@@ -29,7 +29,6 @@ function Navbar() {
                     {t("Nav.contato")}
                   </a>
                 </li>
-
               </ul>
             </div>
 

@@ -18,7 +18,7 @@ export default function Language() {
   return (
     <button
       onClick={toggleLanguage}
-      
+      className='nav-item'
     >
       {language === 'en' ? 'PT' : 'EN'}
     </button>

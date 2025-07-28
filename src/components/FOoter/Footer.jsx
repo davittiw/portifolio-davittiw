@@ -4,11 +4,11 @@ import { useTranslation } from 'react-i18next' // Importando o hook de traduçã
 export default function Footer() {
     const { t } = useTranslation(); // Hook para tradução
     return (
-      <footer className="bg-[var(--black-gray)] w-full text-center py-4 text-gray-500">
+      <footer className="w-full text-center py-4 text-gray-500">
         <p>{t("Footer.text")}
             <a href="https://linkedin.com/in/davttiw/" 
                 target="_blank" 
-                className="text-[var(--white)]">@davittiw
+                className="text-white underline">@davittiw
             </a>
              &copy; 2025
         </p>

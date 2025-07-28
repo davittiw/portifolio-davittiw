@@ -6,7 +6,7 @@ function Contact () {
 
     return (
         <div id="contato" className=" min-h-screen flex flex-col items-center justify-center bg-[var(--black-gray)]">
-            <div className="w-80 sm:w-120 md:w-120: lg:w-120 p-6 gap-2 flex flex-col border border-gray-700 rounded-lg">
+            <div className="w-full sm:w-120 md:w-120: lg:w-120 p-6 gap-2 flex flex-col border border-gray-700 rounded-lg">
                 <div className="">
                     <h1 className="text-white font-bold text-2xl">{t('Contact.title')}</h1>
                 </div>

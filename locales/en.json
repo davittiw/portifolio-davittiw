@@ -1,57 +1,57 @@
 {
-    "Nav": {
-        "home": "Home",
-        "projects": "Projects",
-        "contato": "Contact"
+  "Nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "contato": "Contact"
+  },
+  "Info": {
+    "dev": "Full-Stack Developer",
+    "hire": "hire me"
+  },
+  "About": {
+    "title": "About Me",
+    "description": "Hello! I'm Luccas, a Full-Stack developer passionate about creating innovative and efficient solutions. With experience in both front-end and back-end development, I enjoy building applications that provide great user experiences and meet business needs."
+  },
+  "Project1": {
+    "title": "Weather checker",
+    "description": "Application that queries the OpenWeather API and displays the weather forecast for any city in the world."
+  },
+  "Project2": {
+    "title": "Password Manager",
+    "description": "Generate secure and customized passwords with different complexity criteria."
+  },
+  "Project3": {
+    "title": "Base Converter",
+    "description": "Convert numbers between different numeral systems quickly and easily."
+  },
+  "Project4": {
+    "title": "My Portfolio",
+    "description": "This portfolio was developed using React and Tailwind CSS, showcasing my skills and projects."
+  },
+  "Project5": {
+    "title": "Bookboxd",
+    "description": "Can search for books and view the technical details that matter, all in fast interface"
+  },
+  "Contact": {
+    "title": "Contact me",
+    "name": "Name",
+    "type": "Type of contact",
+    "typeOptions": {
+      "job": "Job Opportunity",
+      "partner": "Partnership",
+      "question": "Question",
+      "feedback": "Feedback",
+      "other": "Other"
     },
-    "Info": {
-        "dev": "Full-Stack Developer",
-        "hire": "hire me"
-    },
-    "About": {
-        "title": "About Me",
-        "description": "Hello! I'm Luccas, a Full-Stack developer passionate about creating innovative and efficient solutions. With experience in both front-end and back-end development, I enjoy building applications that provide great user experiences and meet business needs."
-    },
-    "Project1": {
-        "title": "Weather checker",
-        "description": "Application that queries the OpenWeather API and displays the weather forecast for any city in the world."
-    },
-    "Project2": {
-        "title": "Password Manager",
-        "description": "Generate secure and customized passwords with different complexity criteria."
-    },
-    "Project3": {
-        "title": "Base Converter",
-        "description": "Convert numbers between different numeral systems quickly and easily."
-    },
-    "Project4": {
-        "title": "My Portfolio",
-        "description": "This portfolio was developed using React and Tailwind CSS, showcasing my skills and projects."
-    },
-    "Project5": {
-            "title": "Bookboxd",
-            "description": "Can search for books and view the technical details that matter, all in fast interface. Discover and connect with the world of books!"
-    },
-    "Contact": {
-        "title": "Contact me",
-        "name": "Name",
-        "type": "Type of contact",
-        "typeOptions": {
-            "job": "Job Opportunity",
-            "partner": "Partnership",
-            "question": "Question",
-            "feedback": "Feedback",
-            "other": "Other"
-        },
-        "message": "Message",
-        "messagePlaceholder": "Write your message here...",
-        "send": "Send"
-    },
-    "Social": {
-        "local": "Connect with Me!",
-        "description": "Find me on social media and let's have a chat :)"
-    },
-    "Footer": {
-        "text": "Developed by "
-    }
+    "message": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "send": "Send"
+  },
+  "Social": {
+    "local": "Connect with Me!",
+    "description": "Find me on social media and let's have a chat :)"
+  },
+  "Footer": {
+    "text": "Developed by "
+  }
 }

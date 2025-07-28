@@ -50,13 +50,13 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="w-80 sm:w-90 md:w-120 lg:w-120 max-w-2xl mx-auto mt-12">
+    <div className="w-full sm:w-90 md:w-120 lg:w-120 max-w-2xl mx-auto mt-12">
       <div className="text-left mb-8 text-gray-200">
         <h3 className="text-2xl font-bold mb-2">{t("Social.local")}</h3>
         <p className="text-muted-foreground">{t("Social.description")}</p>
       </div>
 
-      <div className="grid grid-cols-2 gap-2 justify-center">
+      <div className="grid grid-cols-2 gap-4 justify-center">
         {socialLinks.map((social) => {
           const Icon = social.icon;
 

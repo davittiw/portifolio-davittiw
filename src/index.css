@@ -1,18 +1,21 @@
-@font-face{
-  font-family: MontSerrat;
-  src: url('/fonts/Montserrat-VariableFont_wght.ttf');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 body {
-  background-color: var(--black-gray);
+  background-color: var(--bg-black);
+  font-family: 'Poppins', sans-serif;
 }
 
 :root {
-  --primary: #041642;
-  --secundary: #003e91;
-  --primary-two: #002063;
-  --black-gray: #121216;
-  --white: #fff;
+  --bg-black: #000000;
+  --subtitle: #B8BBC1;
+  --title: #fff;
+}
+
+.nav-item {
+  color: #B8BBC1;
+}
+
+.nav-item:hover {
+  color: #fff;
 }
