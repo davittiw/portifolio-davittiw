@@ -1,20 +1,42 @@
-import { useState } from 'react';
 import Language from './Language.jsx';
 import { useTranslation } from 'react-i18next'; // Importando o hook de tradução
 
 function Navbar() {
     const { t } = useTranslation(); // Hook para tradução
+
     return (
-        // Barra de navegação principal, com layout flex e cor de fundo
-        <nav className="w-80 sm:w-90 md:w-110 lg:w-120 p-3 sm:p-4 md:p-4 lg:p-4 flex justify-between items-center z-10 fixed top-0 left-1/2 -translate-x-1/2 text-left text-white">
+      // Barra de navegação
+      <div className="flex justify-center">
+        <header className="fixed flex items-center justify-center w-full backdrop-blur-sm sm:w-90 md:w-100 lg:w-120 h-16 z-10">
+          <nav className="flex h-full w-full p-10 sm:w-86 md:w-96 lg:w-116 justify-between items-center text-white">
             {/* Div centralizada com os links de navegação */}
-            <div className='items-center flex gap-4'>
-                <a href="#home">{t("Nav.home")}</a>
-                <a href="#projetos">{t("Nav.projects")}</a>
-                <a href="#contato">{t("Nav.contato")}</a> 
+            <div>
+              <ul className="flex flex-row space-x-4">
+                <li>
+                  <a className="nav-item" href="/">
+                    {t("Nav.home")}
+                  </a>
+                </li>
+
+                <li>
+                  <a className="nav-item" href="/#projetos">
+                    {t("Nav.projects")}
+                  </a>
+                </li>
+
+                <li>
+                  <a className="nav-item" href="/#contato">
+                    {t("Nav.contato")}
+                  </a>
+                </li>
+
+              </ul>
             </div>
+
             <Language />
-        </nav>
+          </nav>
+        </header>
+      </div>
     );
 }
 

@@ -1,20 +1,18 @@
 import { FaReact, FaNodeJs, FaGitAlt, FaJava, FaPython, FaPhp } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiExpress, SiPrisma } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { DiMysql } from "react-icons/di";
 
 function Tech () {
-
-
     const techs = [
-        {name: 'React', icon: FaReact, color: '#61dafb'},
-        {name: 'Node.js', icon: FaNodeJs, color: '#3c873a'},
-        {name: 'Java', icon: FaJava, color: '#ea2d2e'},
-        {name: 'Python', icon: FaPython, color: '#3776ab'},
-        {name: 'PHP', icon: FaPhp, color: '#777bb4'},
-        {name: 'TypeScript', icon: SiTypescript, color: '#3178c6'},
-        {name: 'Tailwind', icon: RiTailwindCssFill, color: '#38bdf8'},
-        {name: 'MySQL', icon: DiMysql, color: '#00758f'}
+      { name: "React", icon: FaReact, color: "#61dafb" },
+      { name: "Tailwind", icon: RiTailwindCssFill, color: "#38bdf8" },
+      { name: "Node.js", icon: FaNodeJs, color: "#3c873a" },
+      { name: "Express", icon: SiExpress, color: "#000" },
+      { name: "TypeScript", icon: SiTypescript, color: "#3178c6" },
+      { name: "Prisma", icon: SiPrisma, color: "#4752b7" },
+      { name: "MySQL", icon: DiMysql, color: "#00758f" },
+      { name: "Java", icon: FaJava, color: "#ea2d2e" },
     ];
 
     return(

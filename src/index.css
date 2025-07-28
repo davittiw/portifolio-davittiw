@@ -5,6 +5,10 @@
 
 @import "tailwindcss";
 
+body {
+  background-color: var(--black-gray);
+}
+
 :root {
   --primary: #041642;
   --secundary: #003e91;

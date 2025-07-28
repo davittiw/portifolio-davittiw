@@ -5,41 +5,41 @@ function Projetos () {
     const { t } = useTranslation();
 
     const Projeto = [
-        {
-            nome: t('Project1.title'),
-            descricao: t('Project1.description'),
-            linkpj: 'https://verifica-clima.vercel.app/',
-            linkgh: 'https://github.com/davittiw/pj_verificador-clima',
-            img: '/images/verifica-clima.jpg'
-        },
-        {
-            nome:  t('Project2.title'),
-            descricao: t('Project2.description'),
-            linkpj: '#',
-            linkgh: 'https://github.com/davittiw/pj_gerador-senhas',
-            img: '/images/gerador-de-senha.jpg'
-        },
-        {
-            nome:  t('Project3.title'),
-            descricao: t('Project3.description'),
-            linkpj: '#',
-            linkgh: 'https://github.com/davittiw/pj_conversor-bases',
-            img: '/images/conversor-de-base.jpg'
-        },
-        {
-            nome:  t('Project4.title'),
-            descricao: t('Project4.description'),
-            linkpj: 'https://davittiw.vercel.app/',
-            linkgh: 'https://github.com/davittiw/portifolio-davittiw',
-            img: '/images/portifolio.jpg'
-        },
-        {
-            nome: t('Project5.title'),
-            descricao: t('Project5.description'),
-            linkpj: 'https://bookboxd-liart.vercel.app/',
-            linkgh: 'https://github.com/davittiw/bookboxd',
-            img: '/images/bookboxd.png'
-        }
+      {
+        nome: t("Project4.title"),
+        descricao: t("Project4.description"),
+        linkpj: "https://davittiw.vercel.app/",
+        linkgh: "https://github.com/davittiw/portifolio-davittiw",
+        img: "/images/portifolio.jpg",
+      },
+      {
+        nome: t("Project5.title"),
+        descricao: t("Project5.description"),
+        linkpj: "https://bookboxd-liart.vercel.app/",
+        linkgh: "https://github.com/davittiw/bookboxd",
+        img: "/images/bookboxd.png",
+      },
+      {
+        nome: t("Project1.title"),
+        descricao: t("Project1.description"),
+        linkpj: "https://verifica-clima.vercel.app/",
+        linkgh: "https://github.com/davittiw/pj_verificador-clima",
+        img: "/images/verifica-clima.jpg",
+      },
+      {
+        nome: t("Project2.title"),
+        descricao: t("Project2.description"),
+        linkpj: "https://davittiw.github.io/pj_gerador-senhas/",
+        linkgh: "https://github.com/davittiw/pj_gerador-senhas",
+        img: "/images/gerador-de-senha.jpg",
+      },
+      {
+        nome: t("Project3.title"),
+        descricao: t("Project3.description"),
+        linkpj: "https://projeto-conversor-bases.vercel.app/",
+        linkgh: "https://github.com/davittiw/pj_conversor-bases",
+        img: "/images/conversor-de-base.jpg",
+      },
     ];
 
     return (

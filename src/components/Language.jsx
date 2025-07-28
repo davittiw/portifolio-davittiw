@@ -20,7 +20,7 @@ export default function Language() {
       onClick={toggleLanguage}
       
     >
-      {language === 'en' ? 'pt-br' : 'en-us'}
+      {language === 'en' ? 'PT' : 'EN'}
     </button>
   );
 }
