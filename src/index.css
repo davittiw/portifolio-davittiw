@@ -13,9 +13,9 @@ body {
 }
 
 .nav-item {
-  color: #B8BBC1;
+  color: var(--subtitle);
 }
 
 .nav-item:hover {
-  color: #fff;
+  color: var(--title);
 }
