@@ -2,7 +2,8 @@
   "Nav": {
     "home": "Home",
     "projects": "Projects",
-    "contato": "Contact"
+    "contato": "Contact",
+    "sobre": "About"
   },
   "Info": {
     "dev": "Full-Stack Developer",
@@ -11,6 +12,9 @@
   "About": {
     "title": "About Me",
     "description": "Hello! I'm Luccas, a Full-Stack developer passionate about creating innovative and efficient solutions. With experience in both front-end and back-end development, I enjoy building applications that provide great user experiences and meet business needs."
+  },
+  "Tech": {
+    "title": "My Stacks"
   },
   "Project1": {
     "title": "Weather checker",

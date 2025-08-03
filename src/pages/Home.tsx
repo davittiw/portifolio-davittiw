@@ -1,17 +1,37 @@
-import CardProfile from "../components/home/CardProfile.jsx";
-import Projetos from "../components/projetos/Projetos.jsx";
-import Contact from "../components/contato/Contact.jsx";
+import Inicio from "../components/home-folder/landing/Inicio";
+import ProjectSection from "../components/home-folder/project/ProjectSection";
+import Contact from "../components/home-folder/contact/Contact";
+import Tech from "../components/home-folder/tech-stack/Tech"
+
+import { useEffect } from "react";
+import { useLocation } from "react-router";
 
 export default function Home() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      if(location.hash) {
+        const element = document.querySelector(location.hash);
+        if(element){
+          element.scrollIntoView({ behavior: "smooth"})
+        }
+      }
+    }, 100)
+    return () => clearTimeout(timeout)
+  })
+
   return (
     <>
-      <main id="main" className="flex items-center justify-center">
-        <div className="w-110 sm:w-1/2 md:w-1/3 lg:w-1/4 min-h-screen flex flex-col items-center justify-center">
-          <CardProfile />
-          <Projetos />
-          <Contact />
+      <main id="home" className="radial">
+        <div className="w-full min-h-screen classe-livre flex-col ">
+          <Inicio />
+          <Tech/>
+          <ProjectSection />
+          <Contact/>
         </div>
       </main>
     </>
   );
+
 }

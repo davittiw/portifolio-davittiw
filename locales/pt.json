@@ -2,7 +2,8 @@
   "Nav": {
     "home": "Início",
     "projects": "Projetos",
-    "contato": "Contato"
+    "contato": "Contato",
+    "sobre": "Sobre"
   },
   "Info": {
     "dev": "Desenvolvedor Full-Stack",
@@ -11,6 +12,9 @@
   "About": {
     "title": "Sobre Mim",
     "description": "Olá! Eu sou o Luccas, um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento front-end e back-end, gosto de construir aplicações que proporcionam ótimas experiências ao usuário e atendem às necessidades do negócio."
+  },
+  "Tech": {
+    "title": "Minhas Tecnologias"
   },
   "Project1": {
     "title": "Verificador de Clima",

@@ -9,7 +9,7 @@ import './index.css'
 import { App } from './App.js'
 import Home from './pages/Home.js'
 import ErrorPage from './pages/ErrorPage.jsx'
-import Content from './pages/Content.js'
+import AboutPage from './pages/AboutPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,12 +18,12 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/home",
         element: <Home />
       },
       {
-        path: "/content",
-        element: <Content/>
+        path: "/about",
+        element: <AboutPage/>
       }
     ]
   }
