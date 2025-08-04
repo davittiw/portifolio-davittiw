@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <>
-      <main id="home" className="relative radial">
+      <main id="home" className="w-full min-h-screen classe-livre flex-col ">
         <div className="w-full min-h-screen classe-livre flex-col ">
           <Inicio />
           <Tech />

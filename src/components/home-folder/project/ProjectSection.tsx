@@ -17,7 +17,7 @@ const ProjectSection = () => {
 
       <ProjectsCarousel />
 
-      <span className="bg-blue-900 blur-3xl rounded-full absolute top-690 left-200 w-200 h-200 -z-10 filter opacity-7"></span>
+      <span className="bg-blue-900 blur-3xl rounded-full hidden xl:block absolute top-690 left-200 w-200 h-200 -z-10 filter opacity-7"></span>
     </section>
   );
 };
