@@ -17,7 +17,7 @@ export default function Footer() {
         </a>
       </p>
       
-      <p className="hidden sm:block">&copy; 2025 | All rights reserved.</p>
+      <p className="hidden sm:block">&copy; 2025 | {t("Footer.direitos")}</p>
     </footer>
   );
 }

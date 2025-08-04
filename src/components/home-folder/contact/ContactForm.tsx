@@ -11,7 +11,7 @@ function Contact() {
         <div className="text-left mb-3 text-gray-200">
           <h3 className="text-2xl font-bold">{t("Contact.title")}</h3>
           <p className="text-gray-400 text-sm sm:text-md">
-            Conecte-se comigo através das principais plataformas
+            {t("Contact.description")}
           </p>
         </div>
 

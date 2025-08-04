@@ -5,39 +5,73 @@
     "contato": "Contato",
     "sobre": "Sobre"
   },
+
   "Info": {
     "dev": "Desenvolvedor Full-Stack",
-    "hire": "me contrate"
+    "hi": "Olá! Eu sou o Luccas Davi",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe provident ipsa autem. Deserunt, sint adipisci! Adipisci distinctio hic cumque reiciendis culpa expedita molestias minima, atque voluptatem! Accusantium veritatis consectetur possimus?"
   },
   "About": {
     "title": "Sobre Mim",
     "description": "Olá! Eu sou o Luccas, um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento front-end e back-end, gosto de construir aplicações que proporcionam ótimas experiências ao usuário e atendem às necessidades do negócio."
   },
   "Tech": {
-    "title": "Minhas Tecnologias"
+    "title": "Minhas Tecnologias",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur inventore vero culpa ullam ipsum odit.",
+    "tech-stacks": {
+      "react-dec": "Biblioteca JavaScript declarativa e eficiente para construir interfaces de usuário modernas, especialmente aplicações de página única (SPA).",
+      "next-dec": "Framework baseado em React que oferece renderização híbrida (SSR/SSG), roteamento automático e excelente performance para apps web escaláveis.",
+      "tailwind-dec": "Framework CSS utilitário que permite criar layouts responsivos e modernos diretamente com classes, sem sair do HTML.",
+      "node-dec": "Ambiente de execução JavaScript do lado do servidor que permite criar APIs, sistemas backend e ferramentas CLI com alta performance.",
+      "express-dec": "Framework minimalista e flexível para Node.js, usado para construir APIs e aplicações web de forma rápida e eficiente.",
+      "type-dec": "Superset do JavaScript que adiciona tipagem estática ao código, ajudando a evitar erros e melhorar a manutenibilidade de aplicações.",
+      "prisma-dec": "ORM moderno para Node.js e TypeScript que facilita o acesso e a manipulação de bancos de dados relacionais com tipagem segura.",
+      "mysql-dec": "Sistema de gerenciamento de banco de dados relacional amplamente utilizado, conhecido por sua performance, confiabilidade e facilidade de uso.",
+      "java-dec": "Linguagem de programação orientada a objetos, robusta e multiplataforma, muito usada em aplicações corporativas e desenvolvimento Android.",
+      "python-dec": "Linguagem de programação versátil, simples e poderosa, muito popular para automação, análise de dados, desenvolvimento web e inteligência artificial."
+    },
+    "stats-proj": "projetos finalizados",
+    "stats-year": "anos de experiência"
   },
-  "Project1": {
-    "title": "Verificador de Clima",
-    "description": "Aplicação que consulta a API OpenWeather e exibe a previsão do tempo para qualquer cidade do mundo."
+
+  "Projects": {
+    "title": "Conheça meus projetos",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima tempore natus deserunt, dolore assumenda qui!",
+    "filter": "Filtrar por linguagem",
+    "button-see": "Ver",
+    "titles-search": "Projetos encontrados",
+    "Project1": {
+      "title": "Verificador de Clima",
+      "description": "Aplicação que consulta a API OpenWeather e exibe a previsão do tempo para qualquer cidade do mundo."
+    },
+    "Project2": {
+      "title": "Gerenciador de Senhas",
+      "description": "Gere senhas seguras e personalizadas com diferentes critérios de complexidade."
+    },
+    "Project3": {
+      "title": "Conversor de Bases",
+      "description": "Converta números entre diferentes sistemas numéricos de forma simples e rápida."
+    },
+    "Project4": {
+      "title": "Portfólio",
+      "description": "Este portfólio foi desenvolvido usando React e Tailwind CSS, destacando minhas habilidades e projetos."
+    },
+    "Project5": {
+      "title": "Bookboxd",
+      "description": "Pesquise obras com facilidade e veja os detalhes técnicos."
+    }
   },
-  "Project2": {
-    "title": "Gerenciador de Senhas",
-    "description": "Gere senhas seguras e personalizadas com diferentes critérios de complexidade."
+
+  "Modal": {
+    "linkedin": "Rede profissional para conectar com colegas e oportunidades de trabalho.",
+    "github": "Plataforma de desenvolvimento colaborativo para hospedar e revisar código.",
+    "dev": "Comunidade de desenvolvedores para compartilhar conhecimento e experiências.",
+    "email": "Entre em contato direto para discussões profissionais ou colaborações."
   },
-  "Project3": {
-    "title": "Conversor de Bases",
-    "description": "Converta números entre diferentes sistemas numéricos de forma simples e rápida."
-  },
-  "Project4": {
-    "title": "Portfólio",
-    "description": "Este portfólio foi desenvolvido usando React e Tailwind CSS, destacando minhas habilidades e projetos."
-  },
-  "Project5": {
-    "title": "Bookboxd",
-    "description": "Pesquise obras com facilidade e veja os detalhes técnicos."
-  },
+
   "Contact": {
     "title": "Fale comigo",
+    "description": "Encontre-me nas redes sociais e vamos trocar uma ideia!",
     "name": "Nome",
     "type": "Tipo de contato",
     "typeOptions": {
@@ -49,13 +83,16 @@
     },
     "messagePlaceholder": "Escreva sua mensagem aqui...",
     "message": "Mensagem",
-    "send": "Enviar"
+    "send": "Enviar",
+
+    "Social": {
+      "title": "Conecte-se Comigo!",
+      "description": "Encontre-me nas redes sociais e vamos trocar uma ideia!"
+    }
   },
-  "Social": {
-    "local": "Conecte-se Comigo!",
-    "description": "Encontre-me nas redes sociais e vamos trocar uma ideia :)"
-  },
+
   "Footer": {
-    "text": "Desenvolvido por "
+    "text": "Desenvolvido por ",
+    "direitos": "Todos os direitos reservados."
   }
 }

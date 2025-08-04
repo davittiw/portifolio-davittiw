@@ -14,71 +14,61 @@ const techs = [
     name: "React",
     icon: FaReact,
     color: "#61dafb",
-    descricao:
-      "Biblioteca JavaScript declarativa e eficiente para construir interfaces de usuário modernas, especialmente aplicações de página única (SPA).",
+    descricao: "Tech.tech-stacks.react-dec",
   },
   {
     name: "Next.Js",
     icon: FaEnvelopeOpenText,
     color: "#fff",
-    descricao:
-      "Framework baseado em React que oferece renderização híbrida (SSR/SSG), roteamento automático e excelente performance para apps web escaláveis.",
+    descricao: "Tech.tech-stacks.next-dec",
   },
   {
     name: "Tailwind",
     icon: RiTailwindCssFill,
     color: "#38bdf8",
-    descricao:
-      "Framework CSS utilitário que permite criar layouts responsivos e modernos diretamente com classes, sem sair do HTML.",
+    descricao: "Tech.tech-stacks.tailwind-dec",
   },
   {
     name: "Node.js",
     icon: FaNodeJs,
     color: "#3c873a",
-    descricao:
-      "Ambiente de execução JavaScript do lado do servidor que permite criar APIs, sistemas backend e ferramentas CLI com alta performance.",
+    descricao: "Tech.tech-stacks.node-dec",
   },
   {
     name: "Express",
     icon: SiExpress,
     color: "#000",
-    descricao:
-      " Framework minimalista e flexível para Node.js, usado para construir APIs e aplicações web de forma rápida e eficiente.",
+    descricao: "Tech.tech-stacks.express-dec",
   },
   {
     name: "Typescript",
     icon: SiTypescript,
     color: "#3178c6",
-    descricao:
-      "Superset do JavaScript que adiciona tipagem estática ao código, ajudando a evitar erros e melhorar a manutenibilidade de aplicações.",
+    descricao: "Tech.tech-stacks.type-dec",
   },
   {
     name: "Prisma",
     icon: SiPrisma,
     color: "#4752b7",
-    descricao:
-      "ORM moderno para Node.js e TypeScript que facilita o acesso e a manipulação de bancos de dados relacionais com tipagem segura.",
+    descricao: "Tech.tech-stacks.prisma-dec",
   },
   {
     name: "MySQL",
     icon: DiMysql,
     color: "#00758f",
-    descricao:
-      "Sistema de gerenciamento de banco de dados relacional amplamente utilizado, conhecido por sua performance, confiabilidade e facilidade de uso.",
+    descricao: "Tech.tech-stacks.mysql-dec",
   },
   {
     name: "Java",
     icon: FaJava,
     color: "#ea2d2e",
-    descricao:
-      "Linguagem de programação orientada a objetos, robusta e multiplataforma, muito usada em aplicações corporativas e desenvolvimento Android.",
+    descricao: "Tech.tech-stacks.java-dec",
   },
   {
     name: "Python",
     icon: FaPython,
     color: "",
-    descricao:
-      "Linguagem de programação versátil, simples e poderosa, muito popular para automação, análise de dados, desenvolvimento web e inteligência artificial.",
+    descricao: "Tech.tech-stacks.python-dec",
   },
 ];
 

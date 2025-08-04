@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const Inicio = () => {
+  const { t } = useTranslation()
+
   return (
     <section
       id="home"
@@ -9,19 +12,16 @@ const Inicio = () => {
       <div className="w-[90%] md:w-[100%] lg:w-[90%] flex flex-col md:flex-row justify-center items-center gap-10">
 
         <div className="w-[90%] md:w-[50%] text-center">
-          <h2 className="text-zinc-400 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-2xl">Hi! I'm Luccas Davi</h2>
+          <h2 className="text-zinc-400 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-2xl">{t("Info.hi")}</h2>
 
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-5xl font-bold">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-5xl classe-livre font-bold">
             <span className="gradient-text bg-gradient-to-bl bg-clip-text text-transparent">
-              Full-Stack
-            </span> Developer
+              {t("Info.dev")}
+            </span>
           </h1>
 
           <p className="text-sm md:text-xl lg:text-2xl xl:text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            provident ipsa autem. Deserunt, sint adipisci! Adipisci distinctio
-            hic cumque reiciendis culpa expedita molestias minima, atque
-            voluptatem! Accusantium veritatis consectetur possimus?{" "}
+            {t("Info.description")}
           </p>
         </div>
 
