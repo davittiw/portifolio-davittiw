@@ -9,50 +9,69 @@
   "Info": {
     "dev": "Full-Stack Developer",
     "hi": "Hi! I'm Luccas Davi",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe provident ipsa autem. Deserunt, sint adipisci! Adipisci distinctio hic cumque reiciendis culpa expedita molestias minima, atque voluptatem! Accusantium veritatis consectetur possimus?"
+    "description": "Full-stack developer passionate about technology, creativity, and continuous learning. Here you'll find projects that reflect my journey, dedication, and desire to grow in the field."
   },
 
   "About": {
     "title": "About Me",
-    "description": "Hi! I'm Luccas, a passionate Full-Stack developer who loves building innovative and efficient solutions. With experience in both front-end and back-end development, I enjoy creating applications that deliver great user experiences and meet business needs."
+    "description": "Hi! I'm Luccas, a Full-Stack Developer passionate about creating innovative and efficient solutions. With experience in both front-end and back-end development, I enjoy building applications that deliver great user experiences and meet business needs.",
+    "phase": "I am made of everything I love.",
+    "Academic": {
+      "title": "My Academic Journey",
+      "description": "Each course I pursued played a key role in developing my technical skills and shaping my career as a developer.",
+      "titulos": {
+        "form1": {
+          "title": "Systems Analysis and Development",
+          "description": "A higher education course focused on system design, programming logic, databases, and software architecture."
+        },
+        "form2": {
+          "title": "System Development",
+          "description": "A technical course that marked the beginning of my journey. I learned the fundamentals of web, mobile, and desktop development, and participated in team-based projects."
+        },
+        "form3": {
+          "title": "English",
+          "description": "Training focused on improving English communication, with emphasis on technical reading, conversation, and writing."
+        }
+      }
+    }
   },
 
   "Tech": {
     "title": "My Technologies",
-    "description": "okLorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur inventore vero culpa ullam ipsum odit.",
+    "description": "I’m exploring a variety of technologies that allow me to create complete, modern, and scalable solutions.",
     "tech-stacks": {
-      "react-dec": "A declarative and efficient JavaScript library used to build modern user interfaces, especially single-page applications (SPAs).",
-      "next-dec": "A React-based framework that provides hybrid rendering (SSR/SSG), automatic routing, and outstanding performance for scalable web applications.",
-      "tailwind-dec": "A utility-first CSS framework that allows developers to build responsive and modern layouts directly using classes within HTML.",
-      "node-dec": "A server-side JavaScript runtime environment that enables the creation of APIs, backend systems, and CLI tools with high performance.",
-      "express-dec": "A minimalist and flexible Node.js framework used to build APIs and web applications quickly and efficiently.",
-      "type-dec": "A statically typed superset of JavaScript that helps catch errors early and improves application maintainability.",
-      "prisma-dec": "A modern ORM for Node.js and TypeScript that simplifies access and manipulation of relational databases with type safety.",
+      "react-dec": "A declarative and efficient JavaScript library for building modern user interfaces, especially single-page applications (SPAs).",
+      "next-dec": "A React-based framework offering hybrid rendering (SSR/SSG), automatic routing, and great performance for scalable web apps.",
+      "tailwind-dec": "A utility-first CSS framework that lets you build responsive and modern layouts directly within your HTML.",
+      "node-dec": "A JavaScript runtime environment that enables server-side programming with high performance for APIs and back-end systems.",
+      "express-dec": "A minimalist and flexible framework for Node.js used to quickly and efficiently build web applications and APIs.",
+      "type-dec": "A superset of JavaScript that adds static typing, helping to prevent bugs and improve code maintainability.",
+      "prisma-dec": "A modern ORM for Node.js and TypeScript that simplifies database access and manipulation with safe typing.",
       "mysql-dec": "A widely used relational database management system known for its performance, reliability, and ease of use.",
-      "java-dec": "A robust, object-oriented, and cross-platform programming language commonly used in enterprise applications and Android development.",
-      "python-dec": "A versatile, simple, and powerful programming language widely used for automation, data analysis, web development, and artificial intelligence."
+      "java-dec": "An object-oriented, robust, and cross-platform programming language widely used in enterprise applications and Android development.",
+      "python-dec": "A versatile, simple, and powerful programming language, popular for automation, data analysis, web development, and AI."
     },
-    "stats-proj": "projects done",
-    "stats-year": "year of experience"
+    "stats-proj": "finished projects",
+    "stats-year": "years of experience"
   },
 
   "Projects": {
     "title": "Explore My Projects",
-    "description": "Discover some of the projects I've developed. Each one was created with a lot of learning and passion.",
+    "description": "Here you'll find some of the projects I’ve developed to put my skills into practice, test new ideas, and solve real-world problems.",
     "filter": "Filter by language",
     "button-see": "View",
     "titles-search": "Projects found",
     "Project1": {
       "title": "Weather Checker",
-      "description": "An app that queries the OpenWeather API and displays weather forecasts for any city in the world."
+      "description": "App that queries the OpenWeather API and displays the weather forecast for any city in the world."
     },
     "Project2": {
       "title": "Password Manager",
-      "description": "Generate secure and customized passwords with different complexity criteria."
+      "description": "Generate secure and customized passwords with different complexity options."
     },
     "Project3": {
       "title": "Base Converter",
-      "description": "Easily convert numbers between different numerical systems."
+      "description": "Easily convert numbers between different numeral systems."
     },
     "Project4": {
       "title": "Portfolio",
@@ -60,7 +79,7 @@
     },
     "Project5": {
       "title": "Bookboxd",
-      "description": "Search for books easily and view technical details."
+      "description": "Search for books easily and view detailed information about each one."
     }
   },
 
@@ -68,14 +87,14 @@
     "linkedin": "Professional network to connect with colleagues and job opportunities.",
     "github": "Collaborative development platform for hosting and reviewing code.",
     "dev": "Developer community to share knowledge and experiences.",
-    "email": "Reach out directly for professional discussions or collaborations."
+    "email": "Get in touch directly for professional discussions or collaborations."
   },
 
   "Contact": {
     "title": "Get in Touch",
-    "description": "Find me on social media and let's connect!",
+    "description": "Want to chat, ask questions, give feedback, or maybe collaborate on a project? I'm here!",
     "name": "Name",
-    "type": "Contact type",
+    "type": "Contact Type",
     "typeOptions": {
       "job": "Job Opportunity",
       "partner": "Partnership",
@@ -83,13 +102,13 @@
       "feedback": "Suggestion",
       "other": "Other"
     },
-    "messagePlaceholder": "Write your message here...",
+    "messagePlaceholder": "Type your message here...",
     "message": "Message",
     "send": "Send",
 
     "Social": {
-      "title": "Connect With Me!",
-      "description": "Find me on social media and let’s have a chat!"
+      "title": "Connect with Me!",
+      "description": "I'm always open to sharing ideas, learning from others, and meeting new people in the tech world."
     }
   },
 

@@ -7,6 +7,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 :root {
@@ -23,7 +24,7 @@ body {
   border-radius: 10px;
   color: #fff;
   background-color: #000000;
-  border: gray 2px solid;
+  border-color: var(--color-blue-900) /* oklch(54.6% 0.245 262.881) = #155dfc */;
   width: 150px;
   height: 40px;
 }
@@ -34,7 +35,7 @@ body {
 }
 
 .blur-bg {
-  background-color: rgba(255, 255, 255, 0.1); 
+  background-color: rgba(255, 255, 255, 0.041); 
   backdrop-filter: blur(20px);              
   -webkit-backdrop-filter: blur(20px);                  
 }
@@ -79,4 +80,55 @@ body {
   animation: gradientShift 3s ease infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.titulo-responsivo {
+  font-weight: bold;
+  color: #fff;
+}
+
+.subtitulos {
+  font-weight: 500;
+  color: rgb(175, 173, 173);
+  text-align: center;
+}
+
+/* Telas pequenas (celulares) */
+@media (max-width: 600px) {
+  .titulo-responsivo {
+    font-size: 1.5rem;
+  }
+  .subtitulos{
+    font-size: 10px;
+  }
+}
+
+/* Telas médias (tablets) */
+@media (min-width: 601px) and (max-width: 768px) {
+  .titulo-responsivo {
+    font-size: 2rem;
+  }
+  .subtitulos {
+    font-size: 20px;
+  }
+}
+
+/* Telas grandes (notebooks e desktops) */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .titulo-responsivo {
+    font-size: 2.5rem;
+  }
+  .subtitulos {
+    font-size: 20px;
+  }
+}
+
+/* Telas muito grandes (monitores maiores) */
+@media (min-width: 1201px) {
+  .titulo-responsivo {
+    font-size: 3rem;
+  }
+  .subtitulos {
+    font-size: 20px;
+  }
 }

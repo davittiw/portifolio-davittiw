@@ -8,17 +8,21 @@ function Sobre() {
       id="about-creator"
       className="w-[90%] min-h-screen flex gap-20 flex-col items-center justify-center"
     >
-      <div className="w-[90%] md:w-1/2 h-auto text-center">
-        <h2 className="text-white text-4xl md:text-5xl xl:text-4xl font-bold">
-          {t("About.title")}
-        </h2>
-
-        <div className="flex flex-col items-left justify-center p-3">
-          <p className="text-gray-300 text-sm md:text-xl lg:text-xl xl:text-lg">
-            {t("About.description")}
-          </p>
+      <div className="w-[90%] md:w-[60%] h-auto text-center classe-livre flex-col">
+        {/* Imagem parada */}
+        <div className="w-32 h-32 classe-livre border-4 border-blue-600 rounded-full">
+          <img
+            src="https://avatars.githubusercontent.com/u/115652855?v=4"
+            alt="Perfil"
+            className="w-full h-full object-cover rounded-full"
+          />
         </div>
+
+        <h2 className="titulo-responsivo">{t("About.title")}</h2>
+        <p className="subtitulos">{t("About.description")}</p>
       </div>
+
+      <span className="bg-blue-900 blur-3xl rounded-full absolute top-45 left-199 w-200 h-200 -z-10 filter opacity-7"></span>
     </section>
   );
 }

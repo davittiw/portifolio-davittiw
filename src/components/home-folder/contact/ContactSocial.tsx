@@ -68,7 +68,7 @@ const SocialLinks = () => {
       <div className="w-full sm:w-120 md:w-120: lg:w-120 flex flex-col">
         <div className="text-left mb-3 text-gray-200">
           <h3 className="text-2xl font-bold">{t("Contact.Social.title")}</h3>
-          <p className="text-gray-400 text-sm sm:text-md">{t("Contact.Social.description")}</p>
+          <p className="text-gray-400 text-md sm:text-lg">{t("Contact.Social.description")}</p>
         </div>
 
         <div className="grid grid-cols-2 gap-4 justify-center">
@@ -76,7 +76,7 @@ const SocialLinks = () => {
             const Icon = social.icon;
 
             const commonClasses =
-              "border border-white/20 blur-bg text-gray-300 rounded-lg items-center justify-center flex flex-col h-30 w-full md:w-full p-4 gap-2 transition-all duration-200 cursor-pointer hover:bg-gray-800 hover:border-gray-600 hover:text-white hover:transform hover:scale-105";
+              "border border-blue-600/20 blur-bg text-gray-300 rounded-lg classe-livre flex-col h-30 w-full p-4 gap-2 transition-all duration-200 cursor-pointer hover:bg-gray-800 hover:border-gray-600 hover:text-white hover:transform hover:scale-105";
             const styleHandlers = {
               onMouseEnter: (e) => {
                 e.currentTarget.style.borderColor = social.color;

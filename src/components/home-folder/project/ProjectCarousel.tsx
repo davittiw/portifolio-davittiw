@@ -52,6 +52,7 @@ export default function ProjectsCarousel() {
     <section className="w-[90%] md:w-[80%] text-white max-w-6xl mx-auto">
       <h2 className="text-xl mb-4 font-medium">{t("Projects.filter")}</h2>
 
+      {/* Botões de filtro por linguagem */}
       <div className="flex flex-wrap gap-2 mb-6">
         <button
           onClick={() => {
@@ -61,7 +62,7 @@ export default function ProjectsCarousel() {
           className={`px-2 py-1 rounded-full border transition ${
             selectedTech === null
               ? "bg-white text-black border-white"
-              : "border-gray-600 hover:bg-gray-700"
+              : "border-blue-600/20 hover:bg-gray-700"
           }`}
         >
           Todos
@@ -77,7 +78,7 @@ export default function ProjectsCarousel() {
             className={`px-3 py-1 rounded-full border transition ${
               selectedTech === tech
                 ? "bg-white text-black border-white"
-                : "border-gray-600 hover:bg-gray-700"
+                : "border-blue-600/20 hover:bg-gray-700"
             }`}
           >
             {tech}
@@ -85,11 +86,13 @@ export default function ProjectsCarousel() {
         ))}
       </div>
 
+        {/* Cards */}
       <div className="flex items-center justify-center gap-4">
+      {/* Botoes do carrossel */}
         <button
           disabled={currentIndex === 0}
           onClick={() => setCurrentIndex((i) => Math.max(i - 1, 0))}
-          className="p-2 bg-gray-800 rounded-full disabled:opacity-30"
+          className="p-2 blur-bg rounded-full disabled:opacity-30"
         >
           <ChevronLeft size={20} />
         </button>
@@ -98,8 +101,9 @@ export default function ProjectsCarousel() {
           {currentProjects.map((project) => (
             <div
               key={project.title}
-              className="rounded-xl border-2 w-80 blur-bg border-gray-200/20 p-4 flex flex-col justify-between"
+              className="rounded-xl border-2 w-80 blur-bg border-blue-600/20 p-4 flex flex-col justify-between"
             >
+              {/* Imagem do projeto */}
               <div className="w-full h-48 rounded-lg mb-4 flex items-center justify-center">
                 <img
                   src={project.image}
@@ -108,27 +112,30 @@ export default function ProjectsCarousel() {
                 />
               </div>
 
+              {/* Titulo e descrição de cada projeto */}
               <h3 className="text-xl font-bold">{t(project.title)}</h3>
               <p className="text-sm text-gray-300 mt-1">
                 {t(project.description)}
               </p>
 
+              {/* Tag de cada tecnologia nos projetos */}
               <div className="flex flex-wrap gap-2 mt-3">
                 {project.techs.map((tech) => (
                   <span
                     key={tech}
-                    className="px-2 py-1 text-sm bg-gray-900 rounded-full text-white"
+                    className="px-2 py-1 text-sm border border-blue-600/20 rounded-full text-white"
                   >
                     {tech}
                   </span>
                 ))}
               </div>
 
+              {/* Botoes de links externos */}
               <div className="flex gap-2 mt-4">
                 <a
                   href={project.siteUrl}
                   target="_blank"
-                  className="flex-1 classe-livre gap-4 px-3 py-2 button transition"
+                  className="flex-1 classe-livre gap-4 px-3 py-2 button border transition"
                 >
                   <ExternalLink size={16} />
                   {t("Projects.button-see")}
@@ -136,7 +143,7 @@ export default function ProjectsCarousel() {
                 <a
                   href={project.repoUrl}
                   target="_blank"
-                  className="flex-1 classe-livre gap-1 px-3 py-2 button transition"
+                  className="flex-1 classe-livre gap-1 px-3 py-2 button border transition"
                 >
                   <Github size={16} /> GitHub
                 </a>

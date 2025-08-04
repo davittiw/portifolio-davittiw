@@ -19,7 +19,7 @@ const TechsStacks = () => {
               className={`px-4 py-2 rounded-full border transition-all text-sm ${
                 selectedTech.name === tech.name
                   ? "bg-white text-black"
-                  : "border-white/20 text-white hover:bg-white/10"
+                  : "border-blue-600/20 text-white hover:bg-white/10"
               }`}
             >
               {tech.name}
@@ -29,7 +29,7 @@ const TechsStacks = () => {
 
         {/* Info Card */}
         {selectedTech && (
-          <div className="blur-bg border border-white/10 p-6 rounded-xl">
+          <div className="blur-bg border-1 border-blue-600/20 p-6 rounded-xl">
             <div className="flex items-center gap-3 mb-3">
               <selectedTech.icon
                 style={{ color: selectedTech.color }}

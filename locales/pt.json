@@ -9,15 +9,36 @@
   "Info": {
     "dev": "Desenvolvedor Full-Stack",
     "hi": "Olá! Eu sou o Luccas Davi",
-    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe provident ipsa autem. Deserunt, sint adipisci! Adipisci distinctio hic cumque reiciendis culpa expedita molestias minima, atque voluptatem! Accusantium veritatis consectetur possimus?"
+    "description": "Desenvolvedor full-stack apaixonado por tecnologia, criatividade e aprendizado contínuo. Aqui você vai encontrar projetos que refletem minha jornada, meu esforço e minha vontade de crescer na área."
   },
+
   "About": {
     "title": "Sobre Mim",
-    "description": "Olá! Eu sou o Luccas, um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento front-end e back-end, gosto de construir aplicações que proporcionam ótimas experiências ao usuário e atendem às necessidades do negócio."
+    "description": "Olá! Eu sou o Luccas, um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Com experiência em desenvolvimento front-end e back-end, gosto de construir aplicações que proporcionam ótimas experiências ao usuário e atendem às necessidades do negócio.",
+    "phase": "Sou feito de tudo aquilo que amo.",
+    "Academic": {
+      "title": "Minha Jornada Academica",
+      "description": "Cada formação que busquei teve um papel fundamental no desenvolvimento das minhas habilidades técnicas e para minha carreira como desenvolvedor.",
+      "titulos": {
+        "form1": {
+          "title": "Análise e Desenvolvimento de Sistemas",
+          "description": "Curso superior focado na criação de sistemas, lógica de programação, BD e estrutura de software"
+        },
+        "form2": {
+          "title": "Desenvolvimento de Sistemas",
+          "description": "Curso técnico que marcou o início da minha jornada. Aprendi os fundamentos do desenvolvimento web, mobile e desktop, além de participar de projetos em equipe."
+        },
+        "form3": {
+          "title": "English",
+          "description": "Formação voltada ao aprimoramento da comunicação em inglês, com foco em leitura técnica, conversação e escrita."
+        }
+      }
+    }
   },
+
   "Tech": {
     "title": "Minhas Tecnologias",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur inventore vero culpa ullam ipsum odit.",
+    "description": "Estou explorando diversas tecnologias que me permitem criar soluções completas, modernas e escaláveis.",
     "tech-stacks": {
       "react-dec": "Biblioteca JavaScript declarativa e eficiente para construir interfaces de usuário modernas, especialmente aplicações de página única (SPA).",
       "next-dec": "Framework baseado em React que oferece renderização híbrida (SSR/SSG), roteamento automático e excelente performance para apps web escaláveis.",
@@ -36,7 +57,7 @@
 
   "Projects": {
     "title": "Conheça meus projetos",
-    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima tempore natus deserunt, dolore assumenda qui!",
+    "description": "Aqui você encontra alguns dos projetos que desenvolvi para colocar em prática meus conhecimentos, testar novas ideias e resolver problemas reais.",
     "filter": "Filtrar por linguagem",
     "button-see": "Ver",
     "titles-search": "Projetos encontrados",
@@ -71,7 +92,7 @@
 
   "Contact": {
     "title": "Fale comigo",
-    "description": "Encontre-me nas redes sociais e vamos trocar uma ideia!",
+    "description": "Quer conversar, tirar dúvidas, dar feedback ou até iniciar uma colaboração? Estou por aqui!",
     "name": "Nome",
     "type": "Tipo de contato",
     "typeOptions": {
@@ -87,7 +108,7 @@
 
     "Social": {
       "title": "Conecte-se Comigo!",
-      "description": "Encontre-me nas redes sociais e vamos trocar uma ideia!"
+      "description": "Estou sempre aberto a trocar ideias, compartilhar conhecimento e conhecer novas pessoas da área."
     }
   },
 

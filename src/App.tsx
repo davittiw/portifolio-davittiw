@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/header/Navbar";
-import Footer from "./components/footer/Footer.jsx"
+import Footer from "./components/footer-folder/Footer";
 
 import { Outlet } from "react-router";
 
@@ -8,7 +8,7 @@ export const App = () => {
   return (
     <>
       <Navbar />
-      <Outlet />
+        <Outlet />
       <Footer />
     </>
   );

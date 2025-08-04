@@ -23,12 +23,12 @@ export default function Home() {
 
   return (
     <>
-      <main id="home" className="radial">
+      <main id="home" className="relative radial">
         <div className="w-full min-h-screen classe-livre flex-col ">
           <Inicio />
-          <Tech/>
+          <Tech />
           <ProjectSection />
-          <Contact/>
+          <Contact />
         </div>
       </main>
     </>
