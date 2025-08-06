@@ -9,9 +9,6 @@ const Contact = () => {
         <ContactForm />
         <ContactSocial />
       </div>
-
-      <span className="bg-blue-900 blur-3xl rounded-full hidden xl:block absolute top-900 left-330 w-200 h-200 -z-10 filter opacity-7"></span>
-      <span className="bg-blue-900 blur-3xl rounded-full hidden xl:block absolute top-950 left-30 w-200 h-200 -z-10 filter opacity-7"></span>
     </section>
   );
 }

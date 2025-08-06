@@ -8,7 +8,7 @@ const ProjectSection = () => {
   return (
     <section
       id="projects"
-      className="w-full min-h-screen flex flex-col items-center justify-center text-white gap-5"
+      className="w-[90%] min-h-screen flex flex-col items-center justify-center text-white gap-5"
     >
       <div className="info text-center w-[90%] md:w-[80%] xl:w-[40%] z-5 flex items-center justify-center flex-col">
         <h1 className="titulo-responsivo mb-2">{t("Projects.title")}</h1>
@@ -16,8 +16,6 @@ const ProjectSection = () => {
       </div>
 
       <ProjectsCarousel />
-
-      <span className="bg-blue-900 blur-3xl rounded-full hidden xl:block absolute top-690 left-200 w-200 h-200 -z-10 filter opacity-7"></span>
     </section>
   );
 };

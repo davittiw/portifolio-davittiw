@@ -23,9 +23,6 @@ function Tech() {
             <Stat end={1} suffix="+" label={t("Tech.stats-year")} />
           </div>
         </div>
-
-        <span className="bg-blue-900 blur-3xl rounded-full hidden xl:block absolute top-80 left-330 w-200 h-200 -z-10 filter opacity-7"></span>
-        <span className="bg-blue-900 blur-3xl rounded-full hidden xl:block absolute top-0 left-0 w-200 h-200 -z-10 filter opacity-7"></span>
       </section>
     </>
   );

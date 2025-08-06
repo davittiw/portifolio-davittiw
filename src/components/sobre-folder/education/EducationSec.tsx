@@ -18,9 +18,6 @@ const EducationSec = () => {
 
         <Education />
       </div>
-
-      <span className="bg-blue-900 blur-3xl hidden rounded-full xl:block absolute top-300 left-350 w-200 h-200 -z-10 filter opacity-7"></span>
-      <span className="bg-blue-900 blur-3xl hidden rounded-full xl:block absolute top-450 left-50 w-200 h-200 -z-10 filter opacity-7"></span>
     </section>
   );
 };
