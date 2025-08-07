@@ -1,57 +1,57 @@
-import { useState, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import projects from "../../../data/Projects";
 import { ChevronLeft, ChevronRight, ExternalLink, Github } from "lucide-react";
 import { useTranslation } from "react-i18next";
-
-const allTechs = [...new Set(projects.flatMap((p) => p.techs))];
 
 export default function ProjectsCarousel() {
   const { t } = useTranslation();
   const [selectedTech, setSelectedTech] = useState<string | null>(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [sliceCount, setSliceCount] = useState(3);
-
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  
   useEffect(() => {
-    function handleResize() {
-      const w = window.innerWidth;
-      if (w <= 640) {
-        setSliceCount(1); // sm e menor
-      } else if (w <= 768) {
-        setSliceCount(2); // md
+    const observer = new ResizeObserver((entries) => {
+      const width = entries[0].contentRect.width;
+      
+      if (width <= 640) {
+        setSliceCount(1);
+      } else if (width <= 1024) {
+        setSliceCount(2);
       } else {
-        setSliceCount(3); // lg e maiores
+        setSliceCount(3);
       }
-    }
-
-    handleResize();
-    window.addEventListener("resize", handleResize);
-
-    return () => window.removeEventListener("resize", handleResize);
+    });
+    
+    if (containerRef.current) observer.observe(containerRef.current);
+    return () => {
+      if (containerRef.current) observer.unobserve(containerRef.current);
+    };
   }, []);
-
+  
   const filtered = selectedTech
-    ? projects.filter((p) => p.techs.includes(selectedTech))
-    : projects;
-
-  // Limita currentIndex para não passar do máximo possível
+  ? projects.filter((p) => p.techs.includes(selectedTech))
+  : projects;
+  
   const maxIndex = Math.max(0, filtered.length - sliceCount);
-
+  
   // Ajusta currentIndex caso tenha passado do limite (ex: quando filtra e reduz array)
   useEffect(() => {
-    if (currentIndex > maxIndex) {
-      setCurrentIndex(maxIndex);
-    }
+    if (currentIndex > maxIndex) setCurrentIndex(maxIndex);
   }, [currentIndex, maxIndex]);
-
+  
   const currentProjects = filtered.slice(
     currentIndex,
     currentIndex + sliceCount
   );
 
+  const allTechs = [...new Set(projects.flatMap((p) => p.techs))];
+  
   return (
-    <section className="w-[90%] md:w-[80%] text-white max-w-6xl mx-auto">
-      <h2 className="text-xl mb-4 font-medium">{t("Projects.filter")}</h2>
-
+    <section className="w-[80%] flex items-center flex-col text-white max-w-5xl mx-auto ">
+      <h2 className="text-xl mb-4 text-left font-medium">
+        {t("Projects.filter")}
+      </h2>
       {/* Botões de filtro por linguagem */}
       <div className="flex flex-wrap gap-2 mb-6">
         <button
@@ -86,29 +86,24 @@ export default function ProjectsCarousel() {
         ))}
       </div>
 
-        {/* Cards */}
-      <div className="flex items-center justify-center gap-4">
-      {/* Botoes do carrossel */}
-        <button
-          disabled={currentIndex === 0}
-          onClick={() => setCurrentIndex((i) => Math.max(i - 1, 0))}
-          className="p-2 blur-bg rounded-full disabled:opacity-30"
+      {/* Cards */}
+      <div className="flex gap-4 w-full items-center justify-center">
+        <div
+          ref={containerRef}
+          className="flex gap-4 w-[90%] items-center justify-center"
         >
-          <ChevronLeft size={20} />
-        </button>
-
-        <div className="flex gap-4 w-full overflow-hidden">
           {currentProjects.map((project) => (
             <div
               key={project.title}
-              className="rounded-xl border-2 w-80 blur-bg border-blue-600/20 p-4 flex flex-col justify-between"
+              style={{ flex: `0 0 ${100 / sliceCount}%` }}
+              className="rounded-xl border-2 blur-bg border-blue-600/20 p-4 flex flex-col justify-between"
             >
               {/* Imagem do projeto */}
-              <div className="w-full h-48 rounded-lg mb-4 flex items-center justify-center">
+              <div className="full aspect-video rounded-lg mb-4 flex items-center justify-center">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="h-full object-cover rounded-lg"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
 
@@ -151,6 +146,21 @@ export default function ProjectsCarousel() {
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Botoes do carrossel */}
+      <div className="flex flex-row items-center justify-between w-[90%] mt-4">
+        <button
+          disabled={currentIndex === 0}
+          onClick={() => setCurrentIndex((i) => Math.max(i - 1, 0))}
+          className="p-2 blur-bg rounded-full disabled:opacity-30"
+        >
+          <ChevronLeft size={20} />
+        </button>
+
+        <p className="text-center text-md text-gray-400">
+          {filtered.length} {t("Projects.titles-search")}
+        </p>
 
         <button
           disabled={currentIndex >= maxIndex}
@@ -160,10 +170,6 @@ export default function ProjectsCarousel() {
           <ChevronRight size={20} />
         </button>
       </div>
-
-      <p className="text-center text-sm text-gray-400 mt-6">
-        {filtered.length} {t("Projects.titles-search")}
-      </p>
     </section>
   );
 }

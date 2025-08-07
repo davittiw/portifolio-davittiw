@@ -7,7 +7,7 @@ const Inicio = () => {
   return (
     <section
       id="home"
-      className="relative w-[90%] min-h-screen text-white flex gap-10 justify-center items-center"
+      className="w-[90%] min-h-screen text-white flex gap-10 justify-center items-center"
     >
       <div className="w-[90%] md:w-[100%] lg:w-[90%] flex flex-col md:flex-row justify-center items-center gap-10">
         <div className="w-[90%] md:w-[50%] text-center">

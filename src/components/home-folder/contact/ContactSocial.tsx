@@ -64,11 +64,13 @@ const SocialLinks = () => {
   ];
 
   return (
-    <section className="w-[90%] h-full md:w-1/2 classe-livre flex-col">
+    <section className="w-[90%] h-full md:w-1/2 px-5 classe-livre flex-col">
       <div className="w-full sm:w-120 md:w-120: lg:w-120 flex flex-col">
         <div className="text-left mb-3 text-gray-200">
           <h3 className="text-2xl font-bold">{t("Contact.Social.title")}</h3>
-          <p className="text-gray-400 text-md sm:text-lg">{t("Contact.Social.description")}</p>
+          <p className="text-gray-400 text-md sm:text-lg">
+            {t("Contact.Social.description")}
+          </p>
         </div>
 
         <div className="grid grid-cols-2 gap-4 justify-center">
