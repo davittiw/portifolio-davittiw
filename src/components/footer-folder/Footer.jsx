@@ -5,7 +5,7 @@ export default function Footer() {
   const { t } = useTranslation(); // Hook para tradução
 
   return (
-    <footer className="w-full h-15 text-center py-4 flex flex-row items-center justify-around border-t-1 border-white/20 text-gray-500">
+    <footer className="w-full h-15 text-center py-4 flex flex-row items-center justify-around border-t-1 border-white/20 text-gray-500 mt-4">
       <p>
         {t("Footer.text")}
         <a
